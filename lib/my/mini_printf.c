@@ -8,7 +8,7 @@
 #include <stdarg.h>
 #include "my.h"
 
-int my_printf(const char *format, ...)
+int mini_printf(const char *format, ...)
 {
     int format_len = my_strlen(format);
     va_list list;

@@ -15,6 +15,8 @@ SRC 	= 	my_compute_power_it.c 	\
 		my_is_prime.c 	\
 		my_isneg.c 	\
 		my_isprint.c 	\
+		mini_printf.c 	\
+		mini_vprintf.c 	\
 		my_printf_error_handler.c 	\
 		my_printf_handling.c 	\
 		my_printf_handle_flags_wiss.c 	\
@@ -59,7 +61,8 @@ SRC 	= 	my_compute_power_it.c 	\
 		my_strncpy.c 	\
 		my_strstr.c 	\
 		my_strupcase.c 	\
-		my_swap.c
+		my_swap.c 	\
+		verification_case.c
 
 OBJ	=	$(SRC:.c=.o)
 
